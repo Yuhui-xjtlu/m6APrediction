@@ -1,0 +1,15 @@
+Package: m6APrediction
+Type: Package
+Title: A Package for Predicting m6A Sites
+Version: 1.0.0
+Authors@R: c(
+    person("Yuhui", "Dong",
+           email = "Yuhui.Dong23@student.xjtlu.edu.cn",
+           role = c("aut", "cre"))
+)
+Description: This package provides functions for predicting m6A modification sites based on input RNA sequences.
+License: MIT
+Depends: R (>= 3.5.0)
+Imports: randomForest, ggplot2, dplyr
+Encoding: UTF-8
+
